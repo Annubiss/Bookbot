@@ -6,7 +6,8 @@ def get_book_text(book_id):
     
 
 def main():
-     get_book_text("home/adil/Bookbot/books/frankenstein.txt")
+     print(get_book_text("/home/adil/Bookbot/books/frankenstein.txt"))
+
 
 
 
