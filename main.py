@@ -13,7 +13,7 @@ def get_book_text(book_id):
 
 def main():
      if len(sys.argv) < 2:
-          print("Usage: python main.py </home/adil/Bookbot/books/frankenstein.txt>")
+          print("Usage: python3 main.py <path_to_book>")
           raise SystemExit(1)
      
      book_path = sys.argv[1]
