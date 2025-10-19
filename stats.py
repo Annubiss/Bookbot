@@ -6,3 +6,9 @@ def count_characters(text):
     from collections import Counter
     counts = Counter(s)
     return dict(counts)
+
+
+
+
+def sort_items(items):
+        return sorted(items.items(), key=lambda item: item[1], reverse=True)
