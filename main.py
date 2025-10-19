@@ -1,12 +1,17 @@
-
 def get_book_text(book_id):
     with open(book_id) as f:
-         file_contents = f.read()
-         return file_contents
+         return f.read()
+         
     
 
+def count_words(text):
+     return len(text.split())
+     
+
+
 def main():
-     print(get_book_text("/home/adil/Bookbot/books/frankenstein.txt"))
+     text = get_book_text("/home/adil/Bookbot/books/frankenstein.txt")
+     print(f"Found {count_words(text)} total words")
 
 
 
